@@ -5,6 +5,11 @@ class Person {
    String address; // instance variable
    final String country = "Indonesia"; // constant variable    
 
+   Person(String paramName, String paramAddress) { // constructor
+    name = paramName;
+    address = paramAddress;
+   }
+
    void sayHello(String name) { // method
     System.out.println("Hello " + name + ", my name is " + this.name);
    }
