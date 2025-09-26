@@ -4,6 +4,7 @@ public class Demo {
     public static void main(String[] args) {
         int num [] [] = new int [3] [4];
         Math.random();
+        
 
         for (int i = 0; i < num.length; i++){
             for (int j = 0; j < num[i].length; j++){
