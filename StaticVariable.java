@@ -1,7 +1,8 @@
 class Mobile {
     String brand;
     int price;
-    String name;
+    // Penggunaan static variable
+    static String name;
 
     public void show()
     {
