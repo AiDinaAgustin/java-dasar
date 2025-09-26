@@ -9,6 +9,12 @@ public class PersonApp {
         System.out.println(person.name);
         System.out.println(person.address);
         System.out.println(person.country);
+
+        person.sayHello("Budi");
+
+        var person2 = new Person();
+        person2.name = "Rina";
+        person2.sayHello("Siti");
     }
     
 }
