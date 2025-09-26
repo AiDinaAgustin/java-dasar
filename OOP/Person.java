@@ -10,6 +10,13 @@ class Person {
     address = paramAddress;
    }
 
+   Person(String paramName) { // constructor
+    name = paramName;
+   }
+
+   Person() { // constructor
+   }
+
    void sayHello(String name) { // method
     System.out.println("Hello " + name + ", my name is " + this.name);
    }

@@ -2,6 +2,8 @@ package OOP;
 
 public class PersonApp {
     public static void main(String[] args) {
+
+        // Menggunakan constructor dengan 2 parameter
         var person = new Person("Dina", "Bandung");
         // person.name = "Dina";
         // person.address = "Bandung";
@@ -12,8 +14,15 @@ public class PersonApp {
 
         person.sayHello( "Budi");
 
-        var person2 = new Person("Rina", "Jakarta");
+        // Menggunakan constructor dengan 1 parameter
+        var person2 = new Person("Rina");
         person2.sayHello("Siti");
+
+        // Menggunakan constructor tanpa parameter
+        var person3 = new Person();
+        person3.name = "Andi";
+        person3.sayHello("Joko");
+
     }
     
 }
