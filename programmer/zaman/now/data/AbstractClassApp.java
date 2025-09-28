@@ -1,7 +1,5 @@
 package programmer.zaman.now.data;
 
-import java.time.LocalDate;
-
 public class AbstractClassApp {
     public static void main(String[] args) {
         // var location = new Location();  Error: Cannot instantiate the abstract class
